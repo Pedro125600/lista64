@@ -13,11 +13,11 @@ namespace att12
             int[] vetor = new int[5];
 
             Random r = new Random();
-            vetor[1] = r.Next(100);
+            vetor[0] = r.Next(100);
 
-            int maior = vetor[1], menor = vetor[1] , soma = 0 , media = 0;
+            int maior = vetor[0], menor = vetor[0] , soma = 0 , media = 0;
 
-            for (int i = 1; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 vetor[i] = r.Next(100);
 
