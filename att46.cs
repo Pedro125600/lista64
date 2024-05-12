@@ -4,13 +4,14 @@
     {
         static void ExibirMatriz(int[,] matriz)
         {
-            for (int linha = 0; linha < 10; linha++)
+           
+            for (int i = 0; i < 10; i++)
             {
-                for (int coluna = 0; coluna < 10; coluna++)
+                for (int j = 0; j < 10; j++)
                 {
-                    Console.Write(matriz[linha, coluna] + "\t");
+                    Console.Write(matriz[i,j] + "  ");
                 }
-                Console.WriteLine(); 
+                Console.WriteLine("\n"); 
             }
         }
 
