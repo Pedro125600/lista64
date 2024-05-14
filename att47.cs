@@ -21,9 +21,9 @@
             Random r = new Random();
             int soma = 0;
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 3; i++)
             {
-                for(int j = 0;j < 10; j++)
+                for(int j = 0;j < 3; j++)
                 {
                     matriz[i, j] = r.Next(10);
                 }
